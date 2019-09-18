@@ -92,7 +92,7 @@ function let_do_it(){
         check_course_duplicate(courses,a_n)
         courses = courses.concat(a_n)
         B = B_template(courses)
-        $(semester.tr.children()[0]).append(` - TBTL: <span style="color: darkred; font-weight: bold;">${B}</span>`);
+        $(semester.tr.children()[0]).append(` - TBTL tới HK hiện tại: <span style="color: darkred; font-weight: bold;">${B}</span>`);
     }
 }
 (()=>{
